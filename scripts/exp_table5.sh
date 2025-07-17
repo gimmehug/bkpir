@@ -35,4 +35,4 @@ for N in "${POLY_MODULI[@]}"; do
     done
 done
 
-echo "All Table 4 experiments completed. Raw results saved to $RESULT_FILE"
+echo "All Table 5 experiments completed. Raw results saved to $RESULT_FILE"
