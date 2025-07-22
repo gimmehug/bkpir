@@ -3,7 +3,7 @@ Implementation of Keyword PIR for Private Boolean Retrieval.
 
 ## Overview
 
-This repository provides the reference implementation of the **BKPIR** protocol proposed in our paper *"BKPIR: Keyword PIR for Private Boolean Retrieval"*. The protocol enables privacy-preserving boolean retrieval over many-to-many keyword-value databases using homomorphic encryption (based on Microsoft SEAL). It supports single-keyword and compound queries (AND, OR, NOT) while protecting query privacy.
+This repository provides the reference implementation of the many-to-many keyword PIR framework proposed in our paper *"BKPIR: Keyword PIR for Private Boolean Retrieval"*. The framework enables privacy-preserving boolean retrieval over many-to-many keyword-value mapping databases using BFV homomorphic encryption (based on Microsoft SEAL). It supports single-keyword and compound queries (AND, OR, NOT) while protecting query privacy.
 
 ## Features
 
@@ -104,11 +104,11 @@ make
 After starting with parameters, you'll see an interactive menu.
 Select an operation by entering its number:
 
-1. **MMKPIRL**: Basic multi-keyword PIR implementation
-2. **BKPIRL Single**: Single-keyword query
+1. **MMKPIRL**: Basic many-to-many keyword PIR implementation
+2. **BKPIRL Single**: Single-keyword query (without logical operation)
 3. **BKPIRL AND**: Compound query (keyword1 AND keyword2)
 4. **BKPIRL OR**: Compound query (keyword1 OR keyword2)
-5. **BKPIRL NOT**: Single-keyword query (NOT keyword1)
+5. **BKPIRL NOT**: Compound query (NOT keyword1)
 
 ## Experimental Results
 The results presented in this paper can be replicated using the implementation provided in this repository. Detailed instructions for reproducing the results are available in the /script directory.
