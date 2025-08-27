@@ -4,9 +4,9 @@ POLY_MODULI=(8192 16384 32768)
 KEYWORD_COUNT=2
 ITEM_LENGTH=2
 HAMMING_WEIGHTS=(2 4 8 16)
-OUTPUT_DIR="table7_experiment_results"
+OUTPUT_DIR="table6_experiment_results"
 LOG_DIR="$OUTPUT_DIR/logs"
-RESULT_FILE="$OUTPUT_DIR/table7_results.csv"
+RESULT_FILE="$OUTPUT_DIR/table6_results.csv"
 
 mkdir -p "$OUTPUT_DIR" "$LOG_DIR"
 
@@ -31,4 +31,4 @@ for N in "${POLY_MODULI[@]}"; do
     done
 done
 
-echo "All Table 7 experiments completed. Raw results saved to $RESULT_FILE"
+echo "All Table 6 experiments completed. Raw results saved to $RESULT_FILE"
