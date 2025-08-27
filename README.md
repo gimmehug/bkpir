@@ -117,4 +117,11 @@ The results presented in this paper can be replicated using the implementation p
 
 If you use BKPIR in your research, please cite our paper:
 
-BKPIR: Keyword PIR for Private Boolean Retrieval
+```bash
+@inproceedings{song2026bkpir,
+  title={BKPIR: Keyword PIR for Private Boolean Retrieval},
+  author={Song, Jie and Xu, Zhen and Zhang, Yan and Zhan, Pengwei and Li, Mingxuan and Ma, Shuai and Xie, Ru},
+  booktitle={Network and Distributed System Security Symposium, NDSS},
+  year={2026}
+}
+```
