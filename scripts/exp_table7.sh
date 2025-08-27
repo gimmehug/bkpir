@@ -10,9 +10,9 @@ ITEM_PAIRS=(
 )
 HAMMING_WEIGHT=4
 MODES=("MMKPIR" "AND" "OR" "NOT")
-OUTPUT_DIR="table6_experiment_results"
+OUTPUT_DIR="table7_experiment_results"
 LOG_DIR="$OUTPUT_DIR/logs"
-RESULT_FILE="$OUTPUT_DIR/table6_results.csv"
+RESULT_FILE="$OUTPUT_DIR/table7_results.csv"
 
 mkdir -p "$OUTPUT_DIR" "$LOG_DIR"
 
@@ -83,4 +83,4 @@ for pair in "${ITEM_PAIRS[@]}"; do
     done
 done
 
-echo "All Table 6 experiments completed. Raw results saved to $RESULT_FILE"
+echo "All Table 7 experiments completed. Raw results saved to $RESULT_FILE"
