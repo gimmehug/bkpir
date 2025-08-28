@@ -112,6 +112,7 @@ Select an operation by entering its number:
 
 ## Experimental Results
 The results presented in this paper can be replicated using the implementation provided in this repository. Detailed instructions for reproducing the results are available in the /script directory.
+Runtime results may vary across machines due to hardware and software differences. Such factors may cause experiments here to complete faster or slower than the numbers reported in the paper.
 
 ## Citation
 
